@@ -8,7 +8,7 @@
     background-color: #0e0e0e;
 }
 .degrade{
-    background-image: linear-gradient(to bottom, #2bff00a9 5%, #2bff007e, #2bff0041, #2bff0025, #2bff0011, #0000007e, #000000);
+    background-image: linear-gradient(to bottom, #2bff007e, #2bff0041 25%, #2bff0025 40%, #2bff0011 50%, #0000007e 60%, #000000);
 }
 
 
@@ -46,7 +46,7 @@ h2{
 
 .menu li{
     display:inline-table;
-    margin: 30px;
+    margin: 40px;
     padding-top: 30px;
     justify-content:flex-start;
 }
