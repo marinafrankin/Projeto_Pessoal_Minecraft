@@ -151,7 +151,22 @@ h2{
     text-align: center;
     justify-content: space-between;
 }
-
+.imagem_villager_humano{
+    text-align:center;
+    justify-content:center;
+}
+.imagem_templos_do_mar{
+    text-align:center;
+    justify-content:center;
+}
+.imagem_guardioes{
+    text-align:center;
+    justify-content:center;
+}
+.imagem_afogado{
+    text-align:center;
+    justify-content:center;
+}
 
 .foto{
     margin:25px;
