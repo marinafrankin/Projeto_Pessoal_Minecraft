@@ -2,13 +2,15 @@
 /*o "." no inicio dos styles são as configuações globais*/
 /*"weight" significa largura e "height" significa largura*/
 
-
+body{
+    background-image: linear-gradient(45deg, #000000 0%);
+}
 
 .dark{
     background-color: #0e0e0e;
 }
 .degrade{
-    background-image: linear-gradient(to bottom, #2bff007e, #2bff0041 25%, #2bff0025 40%, #2bff0011 50%, #0000007e 60%, #000000);
+    background-image: linear-gradient(to bottom,  #000000);
 }
 
 
@@ -42,6 +44,8 @@ h2{
 
 .menu{
     list-style: none;
+    justify-content:flex-start;
+    text-align: center;
 }
 
 .menu li{
@@ -57,7 +61,7 @@ h2{
     font-weight: 900;
     transition: 0.5s;
     border-radius: 20px;
-    color: #0fff1b;
+    color: #ffffff;
 }
 
 .menu li a:hover{
@@ -132,7 +136,7 @@ h2{
 
 
 .imagem{
-    margin: auto; /*aplica a imagem aos quatro lados.*/
+    margin:auto; /*aplica a imagem aos quatro lados.*/
     width: 10;
     text-align: center;
 }
@@ -200,6 +204,10 @@ h2{
     text-align: center;
 }
 .imagem_End_Cristal{
+    justify-content: center;
+    text-align: center;
+}
+.imagem_Chorus_Fruit{
     justify-content: center;
     text-align: center;
 }
